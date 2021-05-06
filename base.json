@@ -1,0 +1,287 @@
+{
+    "/content/aem-cplotusonlinecommerce-project/us/en/{{url}}": {
+        "templateName": "{{template-name}}",
+        "cssClassNames": "spa page basicpage",
+        "brandSlug": "",
+        "componentsResourceTypes": [
+            "aem-cplotusonlinecommerce-project/components/text",
+            "aem-cplotusonlinecommerce-project/components/commerce/productlist",
+            "aem-cplotusonlinecommerce-project/components/commerce/miniaccount",
+            "aem-cplotusonlinecommerce-project/components/commerce/navigation",
+            "nt:unstructured",
+            "aem-cplotusonlinecommerce-project/components/commerce/minicart",
+            "aem-cplotusonlinecommerce-project/components/structure/header",
+            "aem-cplotusonlinecommerce-project/components/container",
+            "nt:file",
+            "aem-cplotusonlinecommerce-project/components/commerce/searchbar",
+            "aem-cplotusonlinecommerce-project/components/commerce/breadcrumb",
+            "aem-cplotusonlinecommerce-project/components/experiencefragment",
+            "aem-cplotusonlinecommerce-project/components/structure/footerexperiencefragment",
+            "aem-cplotusonlinecommerce-project/components/structure/headerexperiencefragment",
+            "aem-cplotusonlinecommerce-project/components/separator",
+            "nt:resource",
+            "aem-cplotusonlinecommerce-project/components/page",
+            "aem-cplotusonlinecommerce-project/components/xfpage"
+        ],
+        "designPath": "/libs/settings/wcm/designs/default",
+        "language": "en",
+        "title": "{{title}}",
+        ":items": {
+            "root": {
+                "columnClassNames": {
+                    "headerexperiencefragment": "aem-GridColumn aem-GridColumn--default--12",
+                    "responsivegrid": "aem-GridColumn aem-GridColumn--default--12",
+                    "footerexperiencefragment": "aem-GridColumn aem-GridColumn--default--12"
+                },
+                "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                "columnCount": 12,
+                "allowedComponents": {
+                    "applicable": false,
+                    "components": [{
+                            "path": "/conf/aem-cplotusonlinecommerce-project/settings/wcm/templates/search-page/structure/jcr:content/root/aem-cplotusonlinecommerce-project/components/text",
+                            "title": "Text"
+                        },
+                        {
+                            "path": "/conf/aem-cplotusonlinecommerce-project/settings/wcm/templates/search-page/structure/jcr:content/root/aem-cplotusonlinecommerce-project/components/productslist",
+                            "title": "Products List"
+                        }
+                    ]
+                },
+                ":items": {
+                    "headerexperiencefragment": {
+                        "localizedFragmentVariationPath": "/content/experience-fragments/aem-cplotusonlinecommerce-project/us/en/site/header/master/jcr:content",
+                        "name": "header",
+                        "configured": true,
+                        ":type": "aem-cplotusonlinecommerce-project/components/structure/headerexperiencefragment",
+                        ":items": {
+                            "root": {
+                                "columnClassNames": {
+                                    "header": "aem-GridColumn aem-GridColumn--default--12"
+                                },
+                                "columnCount": 12,
+                                "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                                "allowedComponents": {
+                                    "components": [],
+                                    "applicable": false
+                                },
+                                ":items": {
+                                    "header": {
+                                        "notice": {
+                                            "bgcolor": "#006451",
+                                            "text": "ฟรีค่าจัดส่ง 70 บาท ใส่โค้ด สำหรับการจัดส่งภายในวันที่ 1 ธ.ค. - 31 ธ.ค. 2563 เฉพาะบริการส่งด่วนภายในวัน เร็วสุดใน 1 ชั่วโมง",
+                                            "image": null
+                                        },
+                                        "navigation": {
+                                            "languageOptions": [{
+                                                    "langName": "English",
+                                                    "langCode": "EN",
+                                                    "langPath": "/content/aem-cplotusonlinecommerce-project/th/en/home.html"
+                                                },
+                                                {
+                                                    "langName": "Thailand",
+                                                    "langCode": "TH",
+                                                    "langPath": "/content/aem-cplotusonlinecommerce-project/th/en/home.html"
+                                                }
+                                            ]
+                                        },
+                                        "language": "en",
+                                        "endpoint": "https://7fgbq0740k.execute-api.ap-southeast-1.amazonaws.com/api",
+                                        ":type": "aem-cplotusonlinecommerce-project/components/structure/header"
+                                    }
+                                },
+                                ":itemsOrder": [
+                                    "header"
+                                ],
+                                ":type": "aem-cplotusonlinecommerce-project/components/container"
+                            }
+                        },
+                        ":itemsOrder": [
+                            "root"
+                        ],
+                        "classNames": "aem-xf"
+                    },
+                    "responsivegrid": {
+                        "columnClassNames": {
+                            "text": "aem-GridColumn aem-GridColumn--default--12"
+                        },
+                        "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                        "columnCount": 12,
+                        "allowedComponents": {
+                            "applicable": false,
+                            "components": [{
+                                "path": "/content/aem-cplotusonlinecommerce-project/us/en/home/jcr:content/root/responsivegrid/aem-cplotusonlinecommerce-project/components/text",
+                                "title": "Text"
+                            }]
+                        },
+                        ":items": {
+                            "text": {
+                                "id": "text-e637d5e29e",
+                                "text": "<p>Hello World!</p>",
+                                "richText": true,
+                                ":type": "aem-cplotusonlinecommerce-project/components/text",
+                                "dataLayer": {
+                                    "text-e637d5e29e": {
+                                        "@type": "aem-cplotusonlinecommerce-project/components/text",
+                                        "xdm:text": "<p>Hello World!</p>"
+                                    }
+                                }
+                            }
+                        },
+                        ":itemsOrder": [
+                            "text"
+                        ],
+                        ":type": "wcm/foundation/components/responsivegrid"
+                    },
+                    "footerexperiencefragment": {
+                        "localizedFragmentVariationPath": "/content/experience-fragments/aem-cplotusonlinecommerce-project/us/en/site/footer/master/jcr:content",
+                        "name": "footer",
+                        "configured": true,
+                        ":type": "aem-cplotusonlinecommerce-project/components/structure/footerexperiencefragment",
+                        ":items": {
+                            "root": {
+                                "columnClassNames": {
+                                    "text": "aem-GridColumn aem-GridColumn--default--12",
+                                    "separator": "aem-GridColumn aem-GridColumn--default--12"
+                                },
+                                "columnCount": 12,
+                                "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                                "allowedComponents": {
+                                    "components": [],
+                                    "applicable": false
+                                },
+                                ":items": {
+                                    "footer": {
+                                        "contentFragmentPath": "/content/dam/aem-cplotusonlinecommerce-project/cf-header-footer/footer",
+                                        "footerLinks": [{
+                                                "columnItems": [{
+                                                        "urlOpenInNewTab": true,
+                                                        "icon": {},
+                                                        "topic": "Guide Price",
+                                                        "url": "/content/aem-cplotusonlinecommerce-project/us"
+                                                    },
+                                                    {
+                                                        "urlOpenInNewTab": false,
+                                                        "icon": {},
+                                                        "topic": "Guide Price",
+                                                        "url": "/content/dam/aem-cplotusonlinecommerce-project/cf-header-footer/cf-footer-column"
+                                                    }
+                                                ],
+                                                "columnTitle": "Here To Help"
+                                            },
+                                            {
+                                                "columnItems": [{
+                                                        "urlOpenInNewTab": true,
+                                                        "icon": {},
+                                                        "topic": "Where we deliver",
+                                                        "url": "/content/aem-cplotusonlinecommerce-project"
+                                                    },
+                                                    {
+                                                        "urlOpenInNewTab": true,
+                                                        "icon": {},
+                                                        "topic": "Service Charge",
+                                                        "url": "/content/aem-cplotusonlinecommerce-project/us/en"
+                                                    }
+                                                ],
+                                                "columnTitle": "About"
+                                            },
+                                            {
+                                                "columnTitle": "First time shopping",
+                                                "columnItems": [{
+                                                        "topic": "How to shop",
+                                                        "url": "http://www.google.com",
+                                                        "urlOpenInNewTab": false,
+                                                        "icon": null
+                                                    },
+                                                    {
+                                                        "topic": "Registration",
+                                                        "url": "http://www.google.com",
+                                                        "urlOpenInNewTab": false,
+                                                        "icon": null
+                                                    },
+                                                    {
+                                                        "topic": "Book a delivery",
+                                                        "url": "http://www.google.com",
+                                                        "urlOpenInNewTab": false,
+                                                        "icon": null
+                                                    },
+                                                    {
+                                                        "topic": "Favourites",
+                                                        "url": "http://www.google.com",
+                                                        "urlOpenInNewTab": false,
+                                                        "icon": null
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "supportLinks": [{
+                                                "columnItems": [{
+                                                        "urlOpenInNewTab": true,
+                                                        "icon": {
+                                                            "_path": "/content/dam/aem-cplotusonlinecommerce-project/asset.jpg"
+                                                        },
+                                                        "topic": "MasterCard",
+                                                        "url": "www.wikipedia.com/mastercard"
+                                                    },
+                                                    {
+                                                        "urlOpenInNewTab": false,
+                                                        "icon": {
+                                                            "_path": "/content/dam/aem-cplotusonlinecommerce-project/asset.jpg"
+                                                        },
+                                                        "topic": "Visa",
+                                                        "url": "www.wikipedia.com/visa"
+                                                    }
+                                                ],
+                                                "columnTitle": "Payment Method"
+                                            },
+                                            {
+                                                "columnItems": [{
+                                                    "urlOpenInNewTab": true,
+                                                    "icon": {
+                                                        "_path": "/content/dam/aem-cplotusonlinecommerce-project/asset.jpg"
+                                                    },
+                                                    "topic": "Twitter",
+                                                    "url": "www.twitter.com"
+                                                }],
+                                                "columnTitle": "Follow Us"
+                                            }
+                                        ],
+                                        "footerText": [{
+                                            "columnItems": [{
+                                                "urlOpenInNewTab": false,
+                                                "icon": {},
+                                                "topic": "Sitemap",
+                                                "url": "/content/aem-cplotusonlinecommerce-project/language-masters/en"
+                                            }],
+                                            "columnTitle": "Copyright 2021 Ek-Chai Distribution System Co., Ltd."
+                                        }],
+                                        ":type": "aem-cplotusonlinecommerce-project/components/structure/footer"
+                                    }
+                                },
+                                ":itemsOrder": [
+                                    "footer"
+                                ],
+                                ":type": "aem-cplotusonlinecommerce-project/components/container"
+                            }
+                        },
+                        ":itemsOrder": [
+                            "root"
+                        ],
+                        "classNames": "aem-xf"
+                    }
+                },
+                ":itemsOrder": [
+                    "headerexperiencefragment",
+                    "responsivegrid",
+                    "footerexperiencefragment"
+                ],
+                ":type": "wcm/foundation/components/responsivegrid"
+            }
+        },
+        ":itemsOrder": [
+            "root"
+        ],
+        ":type": "aem-cplotusonlinecommerce-project/components/page",
+        ":hierarchyType": "page",
+        ":path": "/content/aem-cplotusonlinecommerce-project/us/en/{{url}}"
+    }
+}
