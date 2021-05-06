@@ -1,5 +1,5 @@
 {
-    "/content/aem-cplotusonlinecommerce-project/us/en/{{url}}": {
+    "/content/aem-cplotusonlinecommerce-project/{{country-code}}/{{language}}/{{url}}": {
         "templateName": "{{template-name}}",
         "cssClassNames": "spa page basicpage",
         "brandSlug": "",
@@ -49,7 +49,7 @@
                 },
                 ":items": {
                     "headerexperiencefragment": {
-                        "localizedFragmentVariationPath": "/content/experience-fragments/aem-cplotusonlinecommerce-project/us/en/site/header/master/jcr:content",
+                        "localizedFragmentVariationPath": "/content/experience-fragments/aem-cplotusonlinecommerce-project//site/header/master/jcr:content",
                         "name": "header",
                         "configured": true,
                         ":type": "aem-cplotusonlinecommerce-project/components/structure/headerexperiencefragment",
@@ -109,7 +109,7 @@
                         "allowedComponents": {
                             "applicable": false,
                             "components": [{
-                                "path": "/content/aem-cplotusonlinecommerce-project/us/en/home/jcr:content/root/responsivegrid/aem-cplotusonlinecommerce-project/components/text",
+                                "path": "/content/aem-cplotusonlinecommerce-project/{/home/jcr:content/root/responsivegrid/aem-cplotusonlinecommerce-project/components/text",
                                 "title": "Text"
                             }]
                         },
@@ -133,7 +133,7 @@
                         ":type": "wcm/foundation/components/responsivegrid"
                     },
                     "footerexperiencefragment": {
-                        "localizedFragmentVariationPath": "/content/experience-fragments/aem-cplotusonlinecommerce-project/us/en/site/footer/master/jcr:content",
+                        "localizedFragmentVariationPath": "/content/experience-fragments/aem-cplotusonlinecommerce-project//site/footer/master/jcr:content",
                         "name": "footer",
                         "configured": true,
                         ":type": "aem-cplotusonlinecommerce-project/components/structure/footerexperiencefragment",
@@ -179,7 +179,7 @@
                                                         "urlOpenInNewTab": true,
                                                         "icon": {},
                                                         "topic": "Service Charge",
-                                                        "url": "/content/aem-cplotusonlinecommerce-project/us/en"
+                                                        "url": "/content/aem-cplotusonlinecommerce-project/{{country-code}}/{{language}}"
                                                     }
                                                 ],
                                                 "columnTitle": "About"
@@ -282,6 +282,6 @@
         ],
         ":type": "aem-cplotusonlinecommerce-project/components/page",
         ":hierarchyType": "page",
-        ":path": "/content/aem-cplotusonlinecommerce-project/us/en/{{url}}"
+        ":path": "/content/aem-cplotusonlinecommerce-project/{{country-code}}/{{language}}/{{url}}"
     }
 }
